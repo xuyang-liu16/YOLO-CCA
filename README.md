@@ -17,18 +17,18 @@ In this work, we introduce a novel vehicle detection algorithm called YOLO-CCA i
 
 ## Acknowledgements
 Our implementation of YOLO-CCA is partly based on the following codebases, including [YOLOv3](https://github.com/ultralytics/yolov3) and [ECA-Net](https://github.com/BangguWu/ECANet). We gratefully thank the authors for their excellent works.
+
 ## Citation
 Please consider citing our paper in your publications, if our findings help your research.
 ```bibtex
-@INPROCEEDINGS{10235599,
+@inproceedings{liu2023yolo,
+  title={YOLO-CCA: An Encoder-Decoder Framework Vehicle Detector Based on Channel Attention},
   author={Liu, Xuyang and Liu, Lingyun and Liu, Tianle},
-  booktitle={2023 IEEE 5th International Conference on Power, Intelligent Computing and Systems (ICPICS)}, 
-  title={YOLO-CCA: An Encoder-Decoder Framework Vehicle Detector Based on Channel Attention}, 
+  booktitle={2023 IEEE 5th International Conference on Power, Intelligent Computing and Systems (ICPICS)},
+  pages={742--747},
   year={2023},
-  volume={},
-  number={},
-  pages={742-747},
-  doi={10.1109/ICPICS58376.2023.10235599}}
+  organization={IEEE}
+}
 ```
 
 ## Contact
