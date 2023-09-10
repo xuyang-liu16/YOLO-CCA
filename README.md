@@ -8,6 +8,14 @@ Official PyTorch implementation of our paper
 <p align="center"> <img src="imgs/overview.png" width="1000" align="center"> </p>
 In this work, we introduce a novel vehicle detection algorithm called YOLO-CCA inspired by channel attention technique. Efficient Channel Attention (ECA) and Encoder-Decoder modules are adopted into YOLO-CCA algorithm for vehicle detection. With the introduction of the Complete-IoU (CIoU) loss function, the convergence rate is also accelerated. YOLO-CCA algorithm is capable of capturing cross-channel information and maximizing it, which leads to high accuracy for vehicle detection, especially for small vehicle targets detection.
 
+## Dataset
+
+### 1. Download DETRAC train/test images 
+Download train images via this [link](https://detrac-db.rit.albany.edu/Data/DETRAC-train-data.zip), and test images via this [link](https://detrac-db.rit.albany.edu/Data/DETRAC-test-data.zip).
+
+### 2. Download DETRAC train/test annotations 
+Download train annotations via this [link](https://detrac-db.rit.albany.edu/auth/loginback), and test images via this [link](https://detrac-db.rit.albany.edu/auth/loginback).
+
 ## Results
 ### 1. Quantitative results on the UA-DETRAC dataset
 <p align="center"> <img src="imgs/results.png" width="1000" align="center"> </p>
