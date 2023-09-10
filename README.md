@@ -16,6 +16,9 @@ Download train images via this [link](https://detrac-db.rit.albany.edu/Data/DETR
 ### 2. Download DETRAC train/test annotations 
 Download train annotations via this [link](https://detrac-db.rit.albany.edu/auth/loginback), and test images via this [link](https://detrac-db.rit.albany.edu/auth/loginback).
 
+<p align="center"> <img src="imgs/dataset.png" width="1000" align="center"> </p>
+UA-DETRAC is a challenging real-world multi-object detection and multi-object tracking benchmark. The dataset consists of 10 hours of videos captured with a Cannon EOS 550D camera at 24 different locations at Beijing and Tianjin in China. The videos are recorded at 25 frames per seconds (fps), with resolution of 960×540 pixels. There are more than 140 thousand frames in the UA-DETRAC dataset and 8250 vehicles that are manually annotated, leading to a total of 1.21 million labeled bounding boxes of objects. More details can be found in this [link](https://detrac-db.rit.albany.edu/)
+
 ## Results
 ### 1. Quantitative results on the UA-DETRAC dataset
 <p align="center"> <img src="imgs/results.png" width="1000" align="center"> </p>
